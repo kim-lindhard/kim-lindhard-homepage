@@ -1,3 +1,3 @@
-# Kim Lindhard dot com
+# Blog
 
-Welcome to the very first iteration of my person website
+[Is it ok for a factory to return null](articles/is-it-ok-for-a-factory-to-return-null)
