@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Kim Lindhard
 description: Home of all things Kim Lindhard
+markdown: kramdown
