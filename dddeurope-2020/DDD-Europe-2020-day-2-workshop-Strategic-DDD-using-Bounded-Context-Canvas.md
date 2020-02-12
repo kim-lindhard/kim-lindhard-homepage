@@ -16,6 +16,7 @@ When deciding between an invariance and policy ask yourself how long you can acc
 There is a conflict of interest between what is best for the organization and what is best for the individual in all organizations. Keep this in mind where you are trying to implement things that will improve the organization.
 
 Nick Tune has defined/found some common traits for domain models, you can find his cheat sheet below:
+
 | Trait  | Heuristic |
 | ------------- | ------------- |
 | Specification Model  | Produces a document describing a job / request the needs to be preformed. *Example: Advertising Campaign Builder*  |
