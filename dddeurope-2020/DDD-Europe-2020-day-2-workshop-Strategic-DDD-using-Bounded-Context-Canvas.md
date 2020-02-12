@@ -34,6 +34,7 @@ Nick Tune has defined/found some common traits for domain models, you can find h
 | Brain Context (likely anti-pattern) | Contains a large number of important rules and many other contexts depends on it. *Example: rules  engine containing all the domain rules* |
 | Funnel Context | Receives documents from multiple upstream contexts and passes them to a single downstream context in a standard format (after applying its own rules) |
 | Engagement Context | Provides key features which attracts users to keep using the product. *Example: Free financial advice context* |
+
 Nick also made a point of stating that some of these traits have been borrowed from others work and that this should be no mean be considered a complete list.
 
 My own contribution to this list would be:
