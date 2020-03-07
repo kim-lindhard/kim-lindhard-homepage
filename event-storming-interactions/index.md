@@ -1,7 +1,7 @@
 # Event storming interactions
 
 
-## Key take ways
+## Key takeaways
   
 * There are 3 interactions between systems and users: commands, domain events and read models.
 * A process or a subprocess can be identified by a starting command and an ending event.
