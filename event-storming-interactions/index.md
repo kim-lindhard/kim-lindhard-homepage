@@ -34,14 +34,14 @@ All interactions can happen in both directions between our system to other syste
 
 ### Command
 
-The command is a call to action, an expression of our intent for something to happen or to be created.\
-A command has 3 properties: a subject, who should do the work to fulfill our intent, our intent: create, remove, start, stop, etc. and a potential payload of information needed to execute the command.\
+The command is a call to action, an expression of our intent for something to happen or to be created.  
+A command has 3 properties: a subject, who should do the work to fulfill our intent, our intent: create, remove, start, stop, etc. and a potential payload of information needed to execute the command.  
 3 things can invoke a command; a user interacts with our system, another system interacts with our system and a policy within our system that invokes a command on a set of predefined conditions.
 
 ### Domain event
 
-Domain events are things that *have* happened within the domain which is relevant for the real world. They only occur at the end of a process and are indisputable facts about the state change.\
-The emitter of events doesn't know who will receive the events and what they will do with them, they only know what has changed to what new state, and where to broadcast it.\
+Domain events are things that *have* happened within the domain which is relevant for the real world. They only occur at the end of a process and are indisputable facts about the state change.  
+The emitter of events doesn't know who will receive the events and what they will do with them, they only know what has changed to what new state, and where to broadcast it.  
 A good analogy would be a radio tower emitting data over a specific wave frequency. You can tab into the stream of data coming from the tower if you have a radio receiver and know the correct frequency, what you do with the stream of data after you receive it is up to you.
 
 ### Read model
@@ -50,16 +50,16 @@ Read models lets us query data within the system, we query because we want to kn
 
 ## Order of interactions
 
-When doing an event storming session, the order of these interactions is arbitrary: a command starts work in the aggregate or external system resulting in an event being emitted which could be aggregated into a view presented to the user by a user interface.\
-This process can also be reflected in code: command can be issued to a command handler doing work resulting in an event being emitted which an event handler acts upon updating a read model.\
+When doing an event storming session, the order of these interactions is arbitrary: a command starts work in the aggregate or external system resulting in an event being emitted which could be aggregated into a view presented to the user by a user interface.  
+This process can also be reflected in code: command can be issued to a command handler doing work resulting in an event being emitted which an event handler acts upon updating a read model.  
 A thing worth noticing is that all processes mapped out in an event storming starts with a desire for something manifested by a command, and every process where we change state in our system ends with an event. This means we can easily identify sub processes by drawing boundaries around commands and events.
 
 ![processes](processes.png)
 
 ## Choosing an interaction
 
-You don't have to put very much thought into interactions if you model your systems flow of control in the same way as an event storming canvas. But the 3 interactions identified above is not exclusively bound to the event storming canvas and our system, they are also a great tool to reason about how we communicate between assemblies and users in our software solutions. When we need an assembly to interact with another assembly to accomplish a goal, we can ask our self what kind of interactions do we want to happen between them to accomplish the desired goal.\
-When doing so, our focus on only one direction of communication between the assemblies at a time: how does assembly A convey its desire or state change to assembly B. Only when that is done should we focus on how assembly B convey its desire or state change to assembly A. This keeps us away from the trap of using the wrong medium to convey our intents and state between the assemblies.\
+You don't have to put very much thought into interactions if you model your systems flow of control in the same way as an event storming canvas. But the 3 interactions identified above is not exclusively bound to the event storming canvas and our system, they are also a great tool to reason about how we communicate between assemblies and users in our software solutions. When we need an assembly to interact with another assembly to accomplish a goal, we can ask our self what kind of interactions do we want to happen between them to accomplish the desired goal.  
+When doing so, our focus on only one direction of communication between the assemblies at a time: how does assembly A convey its desire or state change to assembly B. Only when that is done should we focus on how assembly B convey its desire or state change to assembly A. This keeps us away from the trap of using the wrong medium to convey our intents and state between the assemblies.
 
 Pitfalls could be:
 
