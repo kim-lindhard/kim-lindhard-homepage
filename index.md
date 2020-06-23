@@ -15,6 +15,7 @@
 [DDD Europe 2020 day 4 Main conference day 1](dddeurope-2020/DDD-Europe-2020-day-4-main-conference-day-1.md)
 
 ## Random knowledge
+[Today i learned: Interesting a specific facts I learn along the way](today-i-learned)
 
 [property vs attribute](property-vs-attribute)
 
