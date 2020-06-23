@@ -17,5 +17,7 @@
 ## Random knowledge
 [Today i learned: Interesting a specific facts I learn along the way](today-i-learned)
 
+[Heuristics: A mental shortcut than can ease the cognitive load of making a decision](heristics)
+
 [property vs attribute](property-vs-attribute)
 
