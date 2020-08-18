@@ -14,6 +14,9 @@
 
 [DDD Europe 2020 day 4 Main conference day 1](dddeurope-2020/DDD-Europe-2020-day-4-main-conference-day-1.md)
 
+## Heuristics
+[The best place to store static data](where-to-store-static-data)
+
 ## Random knowledge
 [Today i learned: Interesting a specific facts I learn along the way](today-i-learned)
 
