@@ -8,7 +8,7 @@ Thankfully Git have 2 build in features we can easily use to protect us from acc
 1. A pre commit hook (a script that runs every time we try to commit) that can check if we are on a master or main branch.
 1. A global git configuration that allows us to use the same git hook for all the repositories on our machine.
 
-## The script
+## The pre-commit hook script
 
 The script: [are-you-sure-you-want-to-commit-to-main.sh](https://raw.githubusercontent.com/kim-lindhard/kim-lindhard-homepage/master/git-prevent-commit-to-master/are-you-sure-you-want-to-commit-to-main.sh) 
 
