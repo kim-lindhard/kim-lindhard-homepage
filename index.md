@@ -24,3 +24,5 @@
 
 [property vs attribute](property-vs-attribute)
 
+## Cool stuff 
+[Prevent Git commit to master](git-prevent-commit-to-master)
